@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>食飯啦</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div id="panel-container">
+                    <form action="/contact" method="POST" id="contact-form">
+                        <div>
+                            <input id="text-input" type="text" texts="something" name="content" placeholder="Input Text Here" required/>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </form>
+                    <h3>伙計專用</h3>
+                    <div id="login-panel">
+                        <input type="text" placeholder="ID">
+                        <input type="password" placeholder="PASSWORD">
+                        <button>Log你個頭</button>
+                    </div>
+                    <a href="">Login via Google</a>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div id="memos-board">
+                    <div class="memo-item">
+                        <textarea class="memo">叉你個燒</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                    <div class="memo-item">
+                        <textarea class="memo">紙包雞包紙包雞包紙包雞包雞</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                    <div class="memo-item">
+                        <textarea class="memo">大包整多兩籠</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                    <div class="memo-item">
+                        <textarea class="memo">蝦餃燒賣</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                    <div class="memo-item">
+                        <textarea class="memo">魚翅撈飯</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                    <div class="memo-item">
+                        <textarea class="memo">燒雞翼我鍾意食</textarea>
+                        <div class="memo-button memo-delete-button">
+                            <i class="bi bi-trash-fill"></i>
+                        </div>
+                        <div class="memo-button memo-edit-button">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

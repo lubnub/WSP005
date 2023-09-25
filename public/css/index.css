@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(/img/wall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.memo {
+	background-color: #f5e37a;
+	max-height: 200px;
+	max-width: 200px;
+	width: 100%;
+	aspect-ratio: 1;
+	box-shadow: 10px 5px 5px black;
+}
+
+input[type="file"] {
+	width: 100%;
+}
+
+#login-panel > input {
+	width: 100%;
+	max-width: 250px;
+}
+
+#panel-container {
+	padding: 20px 10px;
+	background-color: #871313;
+	text-align: center;
+}
+
+#memos-board {
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.memo-item {
+	position: relative;
+	margin: 25px 20px;
+}
+
+.memo-delete-button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(50%, -50%);
+}
+
+.memo-edit-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translate(50%, 50%);
+}
+
+.memo-button {
+	background-color: white;
+	padding: 5.5px 9.5px;
+	border-radius: 100%;
+	cursor: pointer;
+}
